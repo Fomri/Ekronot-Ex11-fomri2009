@@ -16,4 +16,6 @@ std::vector<int> callGetPrimes(const int& begin, const int& end);
 
 void writePrimesToFile(const int& begin, const int& end, std::ofstream &file);
 void callWritePrimesMultipleThreads(int begin, int end, const std::string& filePath, int N);
+
+//Bonus 3:
 void threadsRecursion(int num);

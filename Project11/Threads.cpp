@@ -113,6 +113,7 @@ void callWritePrimesMultipleThreads(int begin, int end, const std::string& fileP
 {
 	/*
 	Function write the prime number to file using a multi-threaded way and printing runtime. 
+	input: 3 int, 1 const reference string
 	*/
 	std::ofstream file(filePath);
 	if (!file.is_open())
@@ -140,6 +141,8 @@ void callWritePrimesMultipleThreads(int begin, int end, const std::string& fileP
 	file.close();
 }
 
+
+//Bonus 3: 
 void threadsRecursion(int num) {
 	/*
 	recursive function who print number and then calling her again for print number + 1 until number is bigger than 50.
