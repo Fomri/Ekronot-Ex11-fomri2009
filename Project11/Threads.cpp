@@ -27,7 +27,7 @@ bool isPrime(const int& num) {
 	if (num == 2) return true;
 	if (num % 2 == 0) return false;
 	int i = 0;
-	for (i = 3; i <= sqrt(num); i += 2) {
+	for (i = 3; i * i <= num; i += 2) {
 		if (num % i == 0) return false;
 	}
 	return true;
