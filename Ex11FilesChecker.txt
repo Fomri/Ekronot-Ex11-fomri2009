@@ -1,0 +1,9 @@
+##RequiredFiles
+Threads.h | threads.h -m1 | Thraeds.h -m2 | Threds.h -m2 
+Threads.cpp | threads.cpp -m1 | Thraeds.cpp -m2 | Threds.cpp -m2
+
+##RequiredVS
+
+##Bonus
+
+##ExcludedFiles

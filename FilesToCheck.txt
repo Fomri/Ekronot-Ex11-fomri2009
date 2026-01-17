@@ -1,0 +1,16 @@
+##RequiredFiles
+Threads.h
+Threads.cpp
+main.cpp
+
+##RequiredVS
+*[1].sln
+*[1].vcxproj
+*[1].vcxproj.filters
+
+##Bonus
+
+##ExcludedFiles
+*.vcxproj.user
+Debug
+.vs
