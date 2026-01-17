@@ -16,24 +16,25 @@ int main()
 
 	//Part 2 - section B
 	callGetPrimes(0, 1000);
+	callGetPrimes(0, 100000);
 	callGetPrimes(0, 1000000);
-	callGetPrimes(0, 100000000);
+
 
 	//Part 3 - section C
-	//std::cout << NUM_OF_THREADS << " threads are running " << std::endl;
-	//callWritePrimesMultipleThreads(0, 1000, "primes2.txt", NUM_OF_THREADS);
-	//callWritePrimesMultipleThreads(0, 100000, "primes2.txt", NUM_OF_THREADS);
-	//callWritePrimesMultipleThreads(0, 1000000, "primes2.txt", NUM_OF_THREADS);
+	std::cout << NUM_OF_THREADS << " threads are running " << std::endl;
+	callWritePrimesMultipleThreads(0, 1000, "primes2.txt", NUM_OF_THREADS);
+	callWritePrimesMultipleThreads(0, 100000, "primes2.txt", NUM_OF_THREADS);
+	callWritePrimesMultipleThreads(0, 1000000, "primes2.txt", NUM_OF_THREADS);
 
-	//std::cout << "\nOnly one thread are running " << std::endl;
-	//callWritePrimesMultipleThreads(0, 1000, "primes2.txt", 1);
-	//callWritePrimesMultipleThreads(0, 100000, "primes2.txt", 1);
-	//callWritePrimesMultipleThreads(0, 1000000, "primes2.txt", 1);
+	std::cout << "\nOnly one thread are running " << std::endl;
+	callWritePrimesMultipleThreads(0, 1000, "primes2.txt", 1);
+	callWritePrimesMultipleThreads(0, 100000, "primes2.txt", 1);
+	callWritePrimesMultipleThreads(0, 1000000, "primes2.txt", 1);
 
 	// Bonus
 	// callPrintColorMultipleThreads(); 
 	// findMaxUsingThreads(); 
-	// threadsRecursion(1); 
+	threadsRecursion(1); 
 
 
 	system("pause");
